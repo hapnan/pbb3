@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">pbb3</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nama_kopi">Nama Kopi</string>
+    <string name="gambar_kopi">gambar_kopi</string>
+    <string name="button">Button</string>
+    <string name="detaile">detaile</string>
+    <string name="rp_20000">Rp. 20000</string>
+    <string name="foto_kopi_aceh_gayo">foto_kopi_aceh_gayo</string>
+    <string name="min">-</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="kopi_aceh_gayo">Kopi Aceh Gayo</string>
+    <string name="foto_produk">foto_produk</string>
+    <string name="nama_produk">Nama produk</string>
+    <string name="harga">harga</string>
+
+    <string-array name="kopi">
+        <item></item>
+    </string-array>
+</resources>

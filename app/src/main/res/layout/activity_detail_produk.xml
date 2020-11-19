@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_produk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-59dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/gambarproduk"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@string/foto_produk"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/namaproduk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/nama_produk"
+                        android:textColor="@android:color/black"
+                        android:textSize="36sp"
+                        tools:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/harga_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/harga"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        tools:fontFamily="sans-serif-medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/min"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/black"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:onClick="minus"/>
+
+                        <EditText
+                            android:id="@+id/text_number"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:text="1"
+                            android:textAlignment="center" />
+
+                        <Button
+                            android:id="@+id/plus"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/black"
+                            android:text="+"
+                            tools:textSize="20sp"
+                            android:onClick="plus"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel pharetra odio. Mauris dictum, nulla et tempus facilisis, ligula ex mollis magna, vitae dignissim odio lorem a sem. Nam finibus massa sit amet nulla blandit, a ullamcorper tellus tempor. Nulla facilisi. Praesent at lectus eu augue congue tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut egestas velit. Nulla sit amet purus vel lectus rhoncus sollicitudin. Morbi fringilla ullamcorper elit sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam at sollicitudin erat. Pellentesque pellentesque dui diam, eu sollicitudin justo pretium sit amet. Phasellus pretium felis sit amet libero pulvinar tincidunt. Duis nec dolor ac lacus dignissim pellentesque. Nunc consectetur egestas mi, at rhoncus est sagittis eget. Donec a nulla fringilla, hendrerit velit at, euismod massa."
+                    android:textSize="18sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
