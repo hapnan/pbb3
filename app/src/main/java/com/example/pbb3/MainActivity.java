@@ -64,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
                 "Ketebalan biji Kopi Liberika Rangsang Meranti ini membuatnya dapat disimpan dalam waktu lama dan memiliki kandungan kafein lebih rendah. Sehingga aman dikonsumsi untuk lambung, meski porsinya tetap harus dibatasi.\n" +
                 "\n" +
                 "Keunikan lainnya dari Kopi Liberika Rangsang Meranti adalah jenis kopi yang satu ini mampu tumbuh di tanah gambut. Padahal kebanyakan jenis-jenis kopi Indonesia sendiri tidak bisa ditanam di tanah gambut karena tingkat keasamannya yang tinggi."));
+        mlist.add(new ItemAdapter(R.drawable.kopibanyuwangi, "Kopi Ijen ", 60000, "Kopi arabika java ijen Raung khas Bondowoso merupakan kopi yang sangat nikmat dan unik. Dimana salah satu kopi ini memiliki cita rasa asam jawa dengan perpaduan pedas tak terasa. Pahit dari biji kopi pun tidak terasa pekat, bahkan aromanya sangat khas sekali dengan bau bunga hutan. Maka dari itu kopi Java Ijen Raung mendapat sertifikat Indikasi Geografis (IG) dari kementerian hukum dan HAM. Yang membuat kopi ini semakin digemari oleh pecinta kopi Indonesia."));
+        mlist.add(new ItemAdapter(R.drawable.kopitemanggung, "Kopi Temanggung", 90000, "Kopi Robusta Temanggung memiliki cita rasa tembakau saat diminum, sehingga membuatnya sedikit berbeda dari jenis-jenis kopi Indonesia lainnya. Hal ini karena rata-rata petani Temanggung menanam kopi tersebut berdekatan dengan tanaman tembakau.\n" +
+                "\n" +
+                "Kopi Robusta Temanggung biasanya dihasilkan oleh daerah Kaloran, Pringsut, Gemawang, dan Wonoboyo. Dimana kopi ini memiliki aroma yang lebih kuat dibandingkan dengan jenis robusta lainnya.\n" +
+                "\n" +
+                "Produksi yang dilakukan secara terus-menerus membuat Kopi Robusta Temanggung kini berhasil diekspor sekitar 6000 ton ke berbagai negara, seperti Eropa, Australia, dan Korea."));
     }
     private void adapter(){
         kopiadapter = new adapter(mlist, this);
